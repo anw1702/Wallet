@@ -62,7 +62,7 @@
     <!-- this message is ephemeral; it exists because the page was rendered in
 		   response to a form submission. it will vanish if the user reloads -->
     <p class="pt-2 text-green-600 font-bold">Added new Applicant!</p>
-    {:else if form?.deleted}
+  {:else if form?.deleted}
     <p class="pt-2 text-red-600 font-bold">USer Deleted Successfully!</p>
   {/if}
 </div>
